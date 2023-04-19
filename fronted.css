@@ -67,7 +67,7 @@
 	height: 960px;
 	width: 400px;
 	
-	background-color: blue;
+	background-color: #000080;
 	
 	position: fixed;
 	
@@ -78,7 +78,7 @@
 .draw2{
 	
 	height: 960px;
-	width: 15px;
+	width: 12px;
 	
 	background-color: black;
 	
@@ -91,7 +91,7 @@
 .draw3{
 	
 	height: 960px;
-	width: 15px;
+	width: 12px;
 	
 	background-color: black;
 	
@@ -105,7 +105,7 @@
 	height: 960px;
 	width: 400px;
 	
-	background-color: blue;
+	background-color: #000080;
 	
 	position: fixed;
 	
