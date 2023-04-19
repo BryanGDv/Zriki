@@ -1,6 +1,6 @@
 body{
 
-	min-height: 300vh;
+	min-height: 200vh;
 	
 }
 
@@ -12,7 +12,7 @@ body{
 
 .title {
 	
-	color: red;
+	color: green;
 	
 	font-size: 45px;
 	
