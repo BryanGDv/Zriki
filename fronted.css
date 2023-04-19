@@ -67,7 +67,7 @@
 	height: 960px;
 	width: 400px;
 	
-	background-color: #000080;
+	background-color: #143060;
 	
 	position: fixed;
 	
@@ -105,10 +105,31 @@
 	height: 960px;
 	width: 400px;
 	
-	background-color: #000080;
+	background-color: #143060;
 	
 	position: fixed;
 	
 	right: 0px;
 	top: 0px;
+}
+
+.image{
+	
+	position: fixed;
+	
+	left: 940px;
+	top: 500px;
+}
+
+.imagedraw{
+	
+	height: 65px;
+	width: 490px;
+	
+	background-color: grey;
+	
+	position: fixed;
+	
+	left: 950px;
+	top: 510px;
 }
