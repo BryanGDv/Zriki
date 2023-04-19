@@ -2,7 +2,7 @@
 	
 	color: red;
 	
-	font-size: 30px;
+	font-size: 45px;
 	
 	font-family: Verdana;
 	font-weight: bold;
@@ -15,8 +15,37 @@
 	font-size: 25px;
 	text-align: center;
 	
-	font-family: Helvetica;
+	font-family: Lucida Console;
 
+}
+
+.whatsdesc{
+	position: fixed;
+	
+	left: 540px;
+	top: 390px;
+	
+	font-size: 17px;
+	font-family: Verdana;
+	text-align: center
+
+}
+
+.description{
+
+	position: fixed;
+
+	left: 510px;
+	
+
+}
+
+.date{
+
+	position: fixed;
+
+	bottom: 0px;
+	left: 450px;
 }
 
 .github{
@@ -31,4 +60,55 @@
 	
 	font-size: 25px;
 	
+}
+
+.draw1{
+	
+	height: 960px;
+	width: 400px;
+	
+	background-color: blue;
+	
+	position: fixed;
+	
+	left: 0px;
+	top: 0px;
+}
+
+.draw2{
+	
+	height: 960px;
+	width: 25px;
+	
+	background-color: black;
+	
+	position: fixed;
+	
+	left: 400px;
+	top: 0px;
+}
+
+.draw3{
+	
+	height: 960px;
+	width: 25px;
+	
+	background-color: black;
+	
+	position: fixed;
+	
+	right: 400px;
+	top: 0px;
+}
+.draw4{
+	
+	height: 960px;
+	width: 400px;
+	
+	background-color: blue;
+	
+	position: fixed;
+	
+	right: 0px;
+	top: 0px;
 }
