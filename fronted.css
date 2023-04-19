@@ -34,7 +34,7 @@
 .description{
 
 	position: fixed;
-
+	
 	left: 510px;
 	
 
@@ -53,12 +53,13 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	
+
 	position: fixed;
-	top: 875px;
-	left: 850px;
-	
-	font-size: 25px;
+	bottom: 0px;
+	right: 850px;
+
+	font-family: Verdana;	
+	font-size: 20px;
 	
 }
 
@@ -126,7 +127,7 @@
 	height: 65px;
 	width: 490px;
 	
-	background-color: grey;
+	background-color: black;
 	
 	position: fixed;
 	
