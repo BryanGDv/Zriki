@@ -1,3 +1,16 @@
+body{
+
+	min-height: 200vh;
+
+	
+}
+
+
+.move-effect{
+	
+
+}
+
 .title {
 	
 	color: red;
@@ -20,31 +33,42 @@
 }
 
 .whatsdesc{
-	position: fixed;
 	
-	left: 540px;
-	top: 390px;
+	position: absolute;
 	
+	left: 500px;
+	top: 450px;
+
 	font-size: 17px;
 	font-family: Verdana;
-	text-align: center
+	text-align: center;
 
 }
 
 .description{
 
+	position: absolute;
+	
+	top: 600px;
+	left: 490px;
+	
+	font-family: Verdana;
+	text-align: center;
+}
+
+.requeriments{
+
 	position: fixed;
 	
-	left: 510px;
-	
-
+	left: 540px;
+	top: 1090px;
 }
 
 .date{
 
-	position: fixed;
+	position: absolute;
 
-	bottom: 0px;
+	top: 2000px;
 	left: 450px;
 }
 
@@ -54,9 +78,9 @@
 	align-items: center;
 	gap: 10px;
 
-	position: fixed;
-	bottom: 0px;
-	right: 850px;
+	position: absolute;
+	top: 2000px;
+	left: 850px;
 
 	font-family: Verdana;	
 	font-size: 20px;
@@ -116,10 +140,10 @@
 
 .image{
 	
-	position: fixed;
-	
+	position: absolute;
+
 	left: 940px;
-	top: 500px;
+	top: 550px;
 }
 
 .imagedraw{
@@ -127,10 +151,10 @@
 	height: 65px;
 	width: 490px;
 	
-	background-color: black;
+	background-color: grey;
 	
-	position: fixed;
+	position: absolute;
 	
 	left: 950px;
-	top: 510px;
+	top: 560px;
 }
