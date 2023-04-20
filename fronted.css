@@ -10,7 +10,7 @@ html{
 
 body{
     width: 70%;
-	height: 2000px;
+	height: 2100px;
 	
 	position: absolute;
 	top: -10px;
@@ -161,26 +161,70 @@ body{
 	text-align: center;
 }
 
-.date{
+.beta-text{
 
 	position: absolute;
 
-	top: 2000px;
-	left: 450px;
+	top: 2100px;
+	left: 20px;
 }
 
-.github{
-
-	display: flex;
-	align-items: center;
-	gap: 10px;
-
+.made-by{
+	
+	
 	position: absolute;
-	top: 2000px;
-	left: 460px;
+	top: 2110px;
+	left: 20px;
 
 
 	font-size: 25px;
+	
+}
+
+.social-text{
+
+	position: absolute;
+	
+	font-size: 20px;
+
+	top: 2060px;
+	right: 20px;
+}
+
+
+.github-logo{
+	position: absolute;
+
+	top: 2115px;
+	right: 125px;
+}
+
+
+.made-by{
+	
+	
+	position: absolute;
+	top: 2110px;
+	left: 20px;
+
+
+	font-size: 25px;
+	
+
+}
+
+.open-source-text{
+
+	display: flex;
+	align-items: center;
+	gap: 9px;
+
+	position: absolute;
+	top: 2120px;
+	left: 505px;
+
+
+	font-size: 20px;
 	
 }
 
@@ -188,7 +232,7 @@ body{
 	
 	background-color: #00cbe7;
 
-	height: 80px;
+	height: 110px;
 	width: 100%;
 	
 	
