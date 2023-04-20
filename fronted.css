@@ -175,6 +175,27 @@ body{
 	position: fixed;
 
 	top: -10px;
-	left: 850px;
+	left: 300px;
 		
+}
+
+
+.search-logo{
+
+	
+	position: fixed;
+
+	top: 5px;
+	left: 470px;
+	
+}
+
+.option-logo{
+
+	
+	position: fixed;
+
+	top: 3px;
+	left: 1570px;
+	
 }
