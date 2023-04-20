@@ -1,22 +1,44 @@
-body{
+html{
+	background-color: white;
 
-	min-height: 200vh;
-	
 }
 
 
-.move-effect{
-	
+html{
+	background-color: #143060
+}
 
+body{
+    width: 70%;
+	height: 2000px;
+	
+	position: absolute;
+	top: -10px;
+	left: 270px;
+	
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: black;
+  
+    border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: black;
+	
+	background-color: white;
+	
+	font-family: Verdana;	
 }
 
 .title {
 	
 	color: green;
 	
-	font-size: 45px;
+	position: absolute;
+	top: 5%;
+	left: 29%;
 	
-	font-family: Verdana;
+	font-size: 50px;
+	
 	font-weight: bold;
 	
 	text-align: center;
@@ -24,10 +46,13 @@ body{
 
 .subtitle{
 	
-	font-size: 25px;
-	text-align: center;
+	position: absolute;
+
+	top: 15%;
+	left: 40%;
 	
-	font-family: Lucida Console;
+	font-size: 20px;
+	
 
 }
 
@@ -35,11 +60,10 @@ body{
 	
 	position: absolute;
 	
-	left: 500px;
+	left: 200px;
 	top: 450px;
 
 	font-size: 17px;
-	font-family: Verdana;
 	text-align: center;
 
 }
@@ -49,9 +73,8 @@ body{
 	position: absolute;
 	
 	top: 600px;
-	left: 490px;
+	left: 190px;
 	
-	font-family: Verdana;
 	text-align: center;
 }
 
@@ -79,69 +102,36 @@ body{
 
 	position: absolute;
 	top: 2000px;
-	left: 850px;
+	left: 550px;
 
-	font-family: Verdana;	
-	font-size: 20px;
-	
-}
 
-.draw1{
+	font-size: 25px;
 	
-	height: 960px;
-	width: 400px;
-	
-	background-color: #143060;
-	
-	position: fixed;
-	
-	left: 0px;
-	top: 0px;
 }
 
-.draw2{
+.bottom-image{
 	
-	height: 960px;
-	width: 12px;
+	background-color: #00cbe7;
+
+	height: 80px;
+	width: 100%;
 	
-	background-color: black;
 	
-	position: fixed;
+	position: absolute;
+	left: -5px;
+	bottom: -85px;
 	
-	left: 400px;
-	top: 0px;
+	
+	border: 5px solid black;
 }
 
-.draw3{
-	
-	height: 960px;
-	width: 12px;
-	
-	background-color: black;
-	
-	position: fixed;
-	
-	right: 400px;
-	top: 0px;
-}
-.draw4{
-	
-	height: 960px;
-	width: 400px;
-	
-	background-color: #143060;
-	
-	position: fixed;
-	
-	right: 0px;
-	top: 0px;
-}
+
 
 .image{
 	
 	position: absolute;
 
-	left: 940px;
+	left: 740px;
 	top: 550px;
 }
 
@@ -154,6 +144,37 @@ body{
 	
 	position: absolute;
 	
-	left: 950px;
+	left: 750px;
 	top: 560px;
+}
+
+.top-table{
+	
+    border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	
+	height: 60px;	
+	width: 100%;
+	
+	background-color: #00cbe7;
+	
+	position: fixed;
+
+	top: 0px;
+	left: 0px;
+
+}
+
+.name-top{
+	
+	color: white;
+	
+	font-size: 15px;
+	
+	position: fixed;
+
+	top: -10px;
+	left: 850px;
+		
 }
