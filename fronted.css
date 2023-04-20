@@ -60,8 +60,8 @@ body{
 	
 	position: absolute;
 	
-	left: 200px;
-	top: 450px;
+	left: 210px;
+	top: 480px;
 
 	font-size: 17px;
 	text-align: center;
@@ -72,18 +72,93 @@ body{
 
 	position: absolute;
 	
-	top: 600px;
+	top: 630px;
 	left: 190px;
 	
 	text-align: center;
 }
 
-.requeriments{
+.requeriments-title{
 
-	position: fixed;
+	position: absolute;
 	
-	left: 540px;
-	top: 1090px;
+	top: 920px;
+	left: 200px;
+	
+	text-align: center;
+
+}
+
+.requeriments-desc{
+
+	position: absolute;
+	
+	top: 1020px;
+	left: 205px;
+	
+	text-align: center;
+
+}
+.requeriments-title{
+
+	position: absolute;
+	
+	top: 920px;
+	left: 200px;
+	
+	text-align: center;
+
+}
+
+.visit-title{
+
+	position: absolute;
+	
+	font-size: 30px;
+	
+	top: 1220px;
+	left: 505px;
+	
+	text-align: center;
+
+}
+
+.visit-value{
+
+	position: absolute;
+	
+	font-size: 50px;
+
+	top: 1220px;
+	left: 505px;
+	
+	text-align: center;
+
+}
+
+
+.visit-desc{
+
+	position: absolute;
+	
+	font-size: 30px;
+	
+	top: 1390px;
+	left: 525px;
+	
+	text-align: center;
+
+}
+
+.maintenance{
+	
+	position: absolute;
+	
+	
+	top: 1620px;
+	left: 29%;
+	
+	text-align: center;
 }
 
 .date{
@@ -132,7 +207,7 @@ body{
 	position: absolute;
 
 	left: 740px;
-	top: 550px;
+	top: 580px;
 }
 
 .imagedraw{
@@ -145,7 +220,7 @@ body{
 	position: absolute;
 	
 	left: 750px;
-	top: 560px;
+	top: 590px;
 }
 
 .top-table{
